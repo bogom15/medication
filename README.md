@@ -1,3 +1,14 @@
+To Run this application after cloning it or downloading it follow these steps
+1. npm install
+you will then get an error relating to react-fuzzy
+2. npm install --save react-fuzzy --legacy-peer-deps
+3. got into node modules folder and cd into react-fuzzy
+4. touch index.d.ts (creating this file)
+5. paste this line into the file * declare module 'react-fuzzy';
+6. npm start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
